@@ -1,5 +1,6 @@
-export interface TodoList {
-    todos: Todo[]
+export interface Store {
+    todos: Todo[],
+    filter: boolean
 }
 
 export interface Todo {
