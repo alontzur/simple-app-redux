@@ -13,6 +13,11 @@ const initialState: Todo[] = [
         text: 'task number 2',
         isComplete: true
     },
+    {
+        id: '3',
+        text: 'alon',
+        isComplete: true
+    },
   ]
 
 const todosReducer = createSlice({
